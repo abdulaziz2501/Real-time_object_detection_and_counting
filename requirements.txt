@@ -1,0 +1,27 @@
+# Object Counting System - Kerakli kutubxonalar
+# Python 3.8+ versiyasi talab qilinadi
+
+# Computer Vision va Deep Learning
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+ultralytics==8.1.0              # YOLOv8 uchun
+torch==2.1.0                    # PyTorch
+torchvision==0.16.0
+
+# Tracking algoritmlari
+filterpy==1.4.5                 # Kalman filter uchun
+scikit-learn==1.3.2
+scipy==1.11.4
+
+# Vizualizatsiya va UI
+numpy==1.24.3
+pillow==10.1.0
+matplotlib==3.8.2
+
+# Video processing
+imageio==2.33.0
+imageio-ffmpeg==0.4.9
+
+# Qo'shimcha
+python-dotenv==1.0.0            # Environment o'zgaruvchilar uchun
+pandas==2.1.4                   # Ma'lumotlarni saqlash uchun
