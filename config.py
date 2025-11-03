@@ -18,7 +18,7 @@ INPUT_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # YOLO Model sozlamalari
-YOLO_MODEL = "yolov8n.pt"  # n=nano (tez), s=small, m=medium, l=large, x=xlarge
+YOLO_MODEL = "yolo11m.pt"  # n=nano (tez), s=small, m=medium, l=large, x=xlarge
 CONFIDENCE_THRESHOLD = 0.5  # Ishonch darajasi (0.0 - 1.0)
 IOU_THRESHOLD = 0.45       # Intersection Over Union threshold
 

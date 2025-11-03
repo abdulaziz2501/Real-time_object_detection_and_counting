@@ -72,7 +72,7 @@ def example_3_custom_settings():
     counter.stats = {name: 0 for name in custom_classes.values()}
     
     # Video qayta ishlash
-    video_path = "input_videos/test.mp4"
+    video_path = "input_videos/video1.mov"
     output_path = "output_videos/example3_custom.mp4"
     
     stats = counter.process_video(
